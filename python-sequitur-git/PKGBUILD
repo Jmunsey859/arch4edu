@@ -1,7 +1,7 @@
 # Maintainer: Jingbei Li <i@jingbei.li>
 pkgname=python-sequitur-git
 _gitname=sequitur-g2p
-pkgver=44.5450cb3
+pkgver=51.096c258
 pkgrel=1
 pkgdesc="Sequitur G2P: A trainable Grapheme-to-Phoneme converter."
 arch=('x86_64')
