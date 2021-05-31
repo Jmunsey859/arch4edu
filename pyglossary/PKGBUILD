@@ -3,7 +3,7 @@
 
 pkgname=pyglossary
 pkgver=4.0.11
-pkgrel=1
+pkgrel=2
 pkgdesc="A tool for converting dictionary files aka glossaries with various formats for different dictionary applications"
 arch=(any)
 url="https://github.com/ilius/pyglossary"
@@ -13,6 +13,7 @@ depends=('python')
 optdepends=(
   'python-gobject: Gtk3-based interface'
   'tix: Tkinter-based interface'
+  'python-prompt_toolkit: interactive command-line interface'
   'python-lxml: Many optional flags and formats'
   'python-beautifulsoup4: HTML parsing'
   'python-yaml: Reading from cc-kedict'
@@ -29,5 +30,7 @@ package() {
   python setup.py install --root="$pkgdir/" --prefix=/usr --optimize=1
   cp config.json $pkgdir/usr/share/pyglossary
 }
+
+install=pyglossary.install
 
 # vim:set ts=2 sw=2 et:
