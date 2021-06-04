@@ -2,7 +2,7 @@
 
 pkgname=g2clib
 pkgver=1.6.0
-pkgrel=4
+pkgrel=5
 pkgdesc="GRIB2 encoder/decoder (C version)"
 url="http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2"
 license=("custom:NWS")
