@@ -9,6 +9,6 @@ def pre_build():
             pass
         elif line.startswith('prepare() {'):
             print(line)
-            print('  export https_proxy=http://127.0.0.1:8123')
+            print('  export https_proxy=http://127.0.0.1:7890')
         else:
             print(line)
