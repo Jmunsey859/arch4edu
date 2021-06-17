@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from lilaclib import *
 
-luapkg = 'luajit-git-v2.1.0.beta3.r147.g9143e864-1-aarch64.pkg.tar.xz'
+luapkg = 'https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/aarch64/alarm/luajit-git-v2.1.0.beta3.r201.gdd5032ed-1-aarch64.pkg.tar.xz'
 
 maintainers = [{'github': 'petronny', 'email': 'Jingbei Li <i@jingbei.li>'}]
 build_prefix = 'extra-aarch64'
